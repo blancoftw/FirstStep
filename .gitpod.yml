@@ -2,7 +2,7 @@
 tasks:
   - name: Script Task
     init: |
-        cd vitegitlab
+        cd FirstStep
         echo 'init script' 
         npm install # echo 'init script' # runs during prebuild => https://www.gitpod.io/docs/configure/projects/prebuilds
     command: npm run dev # echo 'start script'
